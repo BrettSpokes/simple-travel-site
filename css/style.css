@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(238, 240, 229);
+    background-image: url("https://c8.alamy.com/comp/2R4CETR/vector-singapore-seamless-pattern-repeat-background-with-illustration-of-famous-singapore-city-scape-on-white-background-for-wrapping-paper-monochro-2R4CETR.jpg");
+    background-size: 200%;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+}
+
+p{
+    font-weight: bolder;
+}
+
