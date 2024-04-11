@@ -5,7 +5,7 @@
 body {
     background-color: rgb(238, 240, 229);
     background-image: url("/images/background_image_1.jpg");
-    background-size: 200%;
+    background-size: 66%;
     text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
     color: #fff;
 }
@@ -36,11 +36,14 @@ a:visited {
 }
 
 footer {
+    display: flex;
     padding-top: 20px;
     font-size: smaller;
     color: #ddd;
     align-content: center;
     text-align: center;
+    clear: both;
+    flex-direction: column-reverse;
 }
 
 #img-title {
@@ -60,11 +63,17 @@ img {
 }
 
 #p-1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #p-2 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h3 {
